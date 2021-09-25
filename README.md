@@ -1,6 +1,6 @@
 # Project HTML & CSS
 ## Assignment
------------------------------------------------------------------------------
+
 Create a website with HTML and CSS with its own design. Only use CSS Grid/Flexbox and media queries.
 
 - All pages must be responsive.
@@ -9,6 +9,6 @@ Create a website with HTML and CSS with its own design. Only use CSS Grid/Flexbo
 - Control functions in forms, html5 and javascript.
 
 ## Result
------------------------------------------------------------------------------
+
 
 
