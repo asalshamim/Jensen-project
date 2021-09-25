@@ -8,4 +8,7 @@ Create a website with HTML and CSS with its own design. Only use CSS Grid/Flexbo
 - Home page containing slide shows and text in columns.
 - Control functions in forms, html5 and javascript.
 
+## Result
 -----------------------------------------------------------------------------
+
+
