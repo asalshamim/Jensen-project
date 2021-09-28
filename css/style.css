@@ -33,6 +33,27 @@ a {
     display: none;
 }
 
+.dark{ 
+  
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+
+}
+button{
+  border-radius: 25px 25px 25px 25px;
+
+}
+.light{
+ 
+  width: 18px;
+  height: 20px;
+  
+  cursor: pointer;
+  margin-top:34px;
+ 
+}
+
 /* Slider */
 
 
