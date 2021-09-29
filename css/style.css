@@ -424,3 +424,38 @@ hr{
   font-size: 25px;
 
 }
+h2{
+  text-align: center;
+}
+.form-cen{
+  padding: 50px 195px;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.form-cen label{
+
+  color: rgb(134, 113, 113);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-cen input {
+  border: 2px solid #977171;
+  border-radius: 4px;
+  display: block;
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+  
+}
+
+.form-cen input:focus{
+  outline: 0;
+  border-color: rgb(216, 66, 216);
+}
+
+
+
+ 
