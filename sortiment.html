@@ -27,7 +27,7 @@
             
               <a href="#" class="navbar-brand"> 
                 <img src="img/logo1.png" width="50" height="50" alt="cupcakes logo"
-                class="d-inline-block align-top" />  
+                class="d-inline-block align-top"  />  
                 <span class="hidden">CUPCAKES</span>
                 </a>
               <button
@@ -41,18 +41,18 @@
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                <ul class="navbar-nav ms-auto text-center">
-                    <li>
+                <ul class="navbar-nav ms-auto text-center" >
+                    <li >
                         <a class="nav-link" href="index.html"> HEM</a>
                     </li>
                     <li>
                         <a class="nav-link" href="sortiment.html"> SORTIMENT</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#"> Information</a>
+                        <a class="nav-link" href="information.html"> INFORMATION</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#"> KONTAKT </a>
+                        <a class="nav-link" href="kontakt.html"> KONTAKT </a>
                     </li>
                     <li class="nav-link">
                        
@@ -60,6 +60,19 @@
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                           </svg>
                         
+                      </li>
+
+                      <li>
+                        <div class="dark">
+                          <button type="button" onclick="myFunction()">
+                            <i class="fas fa-moon"></i>Mörk </button>
+                            </div>
+                            <div class="light">
+                            <button type="button" onclick="myFunction1(), myFunction2()">
+                              <i class="far fa-moon"></i>Ljus </button>
+                              
+
+                        </div>
                       </li>
                 </ul>
               </div>
@@ -125,7 +138,7 @@
             </div>
             <div class="product-footer">
               <a href="#">
-                <h3>ROCKY ROAD </h3>
+                <h3 >ROCKY ROAD </h3>
               </a>
               
               <h4 class="price">PRIS FRÅN 35.00 KRONOR</h4>
@@ -340,6 +353,21 @@
               slides[slideIndex-1].style.display = "block";  
               dots[slideIndex-1].className += " active";
             }
+
+
+            function myFunction() {
+              document.body.style.backgroundColor = "#495057";
+              
+              }
+
+              function myFunction1() {
+              document.body.style.backgroundColor = "#fdfcdc";
+              
+              }
+              function myFunction2() {
+                document.getElementById("co1").style.color ="red";
+              }
+            
         </script>
 
 </body>
