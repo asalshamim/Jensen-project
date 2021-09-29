@@ -98,77 +98,75 @@ button{
   }
 
   
-.section {
-  padding: 8rem 0 5rem 0;
-}
-
-.advert-center {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 3rem;
-}
-
-.advert-box {
-  position: relative;
-  color: #fff;
-  height: 18rem;
-  border-radius: 2rem;
-  padding: 1.6rem;
-  overflow: hidden;
-  z-index: 1;
-  margin-left: 15px;
+  .section {
+    padding: 10rem 0 5rem 0;
+  }
   
-}
-
-.advert-box img {
-  position: absolute;
-  bottom: 0%;
-  left: -25%;
-  height: 100%;
-  width: 45rem;
-  z-index: -1;
-}
-
-.advert-box:nth-child(1) {
-  background-color: #e6dbe5;
-}
-
-.advert-box:nth-child(2) {
-  background-color: #4d328d;
-}
-
-.advert-box .dotted {
-  position: relative;
-  height: 100%;
-  border: 5px #3a3939;
-  border-radius: 1rem;
-}
-
-.advert-box .content {
-  position: absolute;
-  top: 50%;
-  right: 5%;
-  transform: translate(0, -50%);
-}
-
-.advert-box .content h2,
-.advert-box .content h4 {
-  text-shadow: 3px 5px 0px rgba(45, 61, 100, 0.1);
+  .advert-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+  }
   
-}
-
-.advert-box .content h2 {
-  line-height: 1.2;
-  font-size: 1.0rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
+  .advert-box {
+    position: relative;
+    color: #fff;
+    height: 27rem;
+    border-radius: 1rem;
+    padding: 1.6rem;
+    overflow: hidden;
+    z-index: 1;
+  }
   
-}
+  .advert-box img {
+    position: absolute;
+    bottom: 0%;
+    left: -20%;
+    height: 100%;
+    width: 35rem;
+    z-index: -1;
+  }
+  
+  .advert-box:nth-child(1) {
+    background-color: #e6dbe5;
+  }
+  
+  .advert-box:nth-child(2) {
+    background-color: #4d328d;
+  }
+  
+  .advert-box .dotted {
+    position: relative;
+    height: 100%;
+    border: 3px #3a3939;
+    border-radius: 1rem;
+  }
+  
+  .advert-box .content {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+  }
+  
+  .advert-box .content h2,
+  .advert-box .content h4 {
+    text-shadow: 5px 6px 0px rgba(37, 59, 112, 0.1);
+  }
+  
+  .advert-box .content h2 {
+    line-height: 1.0;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-right: -22px;
 
-.advert-box .content h4 {
-  font-size: 1.0rem;
-  text-transform: capitalize;
-}
+  }
+  
+  .advert-box .content h4 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
 
 /* Product */
 .product-center {
@@ -388,39 +386,11 @@ h2{
 }
 
 
-@media only screen and (max-width: 700px)  {
- 
-  .form button{
-    width: 20%;
-  }
-  
-  
-}
-
-@media only screen and (max-width: 576px )  {
-
-  .form-cen input{
-    width: 120%;
-    border: 2px solid #6e3f3f;
 
 
-  }
-  .kontakt-center{
-    font-size: 22px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-  }
-  .p1{
-    font-family: sans-serif;
-    font-size: 15px;
-    text-align:justify;
-    margin-left: 80px;
-    margin-right: 75px;
-  }
-  
-}
 
-@media only screen and (max-width: 301px )  {
+@media only screen and (max-width: 1200px )  {
 
   body {
     background-color: rgb(187, 187, 143);
@@ -439,11 +409,7 @@ h2{
     margin-left: 80px;
     margin-right: 75px;
   }
-  .advert-box .content h2 {
-   display: none;
-    
-    
-  }
+  
   
 
   .info-center a {
@@ -458,39 +424,35 @@ h2{
     margin-top: -35px;
   
   }
-  .advert-box {
-    width: 30%;
-}
-.form button{
-  width: 105%;
-}
-  
-}
-
-@media only screen and (max-width: 998px) {
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 1rem;
-  }
-  .advert-box {
-    width: 90%;
-  }
-  .advert-box .content h2 {
-   
-    font-size: 2.8rem;
-    
-  }
+ 
   .advert-box img {
     position: absolute;
     bottom: 0%;
-    left: -10%;
-    height: 110%;
-    width: 22rem;
+    left: -2%;
+    height: 100%;
+    width: 19rem;
     
   }
+  .advert-box .content h2 {
+
+    margin-right: -32px;
+    font-size: 2.2rem;
+  
+  }
+
+
+  
 }
 
-@media only screen and (max-width: 768px) {
+
+
+
+
+@media only screen and (max-width: 996px) {
+  body{
+    background-color: rgb(239, 223, 240);
+  }
+
   .footer-container {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -502,6 +464,21 @@ h2{
   font-size: 2rem;
   
 }
+.advert-box img {
+  position: absolute;
+  bottom: 0%;
+  left: -2%;
+  height: 100%;
+  width: 22rem;
+  
+}
+.advert-box .content h2 {
+
+  margin-right: -30px;
+  font-size: 2.2rem;
+
+}
+
 }
 
 
