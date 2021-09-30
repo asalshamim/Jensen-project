@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://www.cupcakes.se/index.html</loc>
+        <lastmod>2018-06-04</lastmod>
+    </url>
+
+    
+-    <url>
+
+        <loc>http://cupcakes.se/kontakt.html</loc>
+
+        <changefreq>daily</changefreq>
+
+    </url>
+
+
+-    <url>
+
+        <loc>http://cupcakes.se/information.html</loc>
+
+        <changefreq>daily</changefreq>
+
+    </url>
+
+    <url>
+
+        <loc>sortiment.html</loc>
+
+        <changefreq>daily</changefreq>
+    </url>
+
+</urlset>

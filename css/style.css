@@ -385,6 +385,32 @@ h2{
     margin-top: 20px;
 }
 
+/* sitemap */
+
+.sitmap{
+  background-color: #fbfbfb;
+  border-color: #b485b0 #e5e5e5 #e5e5e5;
+  border-style: solid;
+  border-width: 12px 11px 1px;
+  padding-bottom: 19px;
+  
+  
+  
+}
+.sitmap01 {
+  color: #948f8f;
+  font-weight: normal;
+  text-transform: none;
+  margin: 25px 25px 25px 25px;
+}
+li{
+  display: block;
+  text-align: center;
+  
+}
+
+
+
 
 
 
@@ -393,7 +419,7 @@ h2{
 @media only screen and (max-width: 1200px )  {
 
   body {
-    background-color: rgb(187, 187, 143);
+    background-color: rgb(211, 211, 178);
   }
 
 
